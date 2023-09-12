@@ -7,10 +7,10 @@ botaoLogin.addEventListener("mouseenter",verificarCredenciais);
 botaoLogin.addEventListener("touchstart",verificarCredenciais);
 botaoLogin.addEventListener("click",verificarCredenciais);
 function verificarCredenciais(){
-    alert("Login")
      if((usuario.value === "blaze") && (senha.value === "creator") ){
          location.href = "Sinais.html";
      }else{
+        alert("Login")
          alert("Nome de usuário e/ou Senha incorrectos! \nTry it again!")
      }
 }
