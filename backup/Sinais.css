@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .horario-container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .horario-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 20px;
+  }
+  .numero-x {
+    margin-top: 10px;
+  }
+  .rosa {
+    background-color: #ff1493;
+    color: white;
+    font-weight: bold;
+  }
+  .roxo {
+    background-color: purple;
+  }
+  .azul {
+    background-color: blue;
+  }
+  #atualizar-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #casa-escolhida-input {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  #atualizar-casa-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .login-container {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .input-group {
+    margin-bottom: 20px;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #program-content {
+    display: none;
+  }
+  

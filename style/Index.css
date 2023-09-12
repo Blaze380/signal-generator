@@ -1,0 +1,66 @@
+body{
+    background-color:#272727;
+    color: white;
+    font-family: ebrima;
+}
+form{
+    background-color: #1c1c1c;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 6px 2px #00000030;
+}
+form h2{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#caixa-texto{
+    display: flex;
+    margin-left: 12.2%;
+    margin-bottom: 4%;
+    color: #5C656E;
+}
+/**
+ *ajuda
+ */
+.container input[type="checkbox"]{
+    color: #5C656E;
+}
+.container input{
+    display: flex;
+    background-color:#ffffff;
+    border-color: #527A96;
+    border-radius: 5px;
+    border-style: none;
+    color: #5d87a5;
+}
+.container input:focus{
+    outline: none;
+}
+.container input::placeholder{
+    color:#080808;
+}
+.container input[type="submit"]:hover{
+    background-color: #c24e07;
+}
+
+.container input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    margin-left: 37%;
+    margin-bottom: 10%;
+    color: #000000;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #FC6200;
+    padding-left: 7%;
+}
+.texto{
+    width: 250px;
+    height: 30px;
+    margin: 20px 50px;
+
+}
