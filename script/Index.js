@@ -14,9 +14,10 @@ botaoLogin.addEventListener("volumechange",()=>{
 });
 function verificarCredenciais(){
      if((usuario.value === "blaze") && (senha.value === "creator") ){
+         alert("Seja Bem-Vindo!");
          location.href = "Sinais.html";
      }else{
-         alert("Nome de usuário e/ou Senha incorrectos! \nTry it again!")
+         alert("Nome de usuário e/ou Senha incorrectos! \nTry it again!");
      }
 }
 
