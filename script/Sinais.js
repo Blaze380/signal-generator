@@ -12,7 +12,6 @@ const body =document.body;
 const elementos = document.querySelectorAll(".cor");
 const logotipo = document.getElementById("logotipo");
 const divSinais = document.getElementById("sinais");
-criarSinais()
 /**
  * Este loop adiciona o "hover" ao botões de navegação
  */
